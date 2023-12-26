@@ -38,8 +38,8 @@ PKMNPWRText:
 	text "PKMN PWR"
 	done
 
-Text000b:
-	textfw0 "ポケモンカ—ド"
+UnusedText000b: ; Unused (Pokemon Card)
+	textfw "ポケモンカード"
 	done
 
 LengthText:
@@ -55,7 +55,7 @@ PokemonText:
 	done
 
 MetresText:
-	textfw3 "m"
+	textfw "m"
 	done
 
 LbsText:
@@ -63,19 +63,19 @@ LbsText:
 	done
 
 PromostarRarityText:
-	textfw0 " "
+	textfw " "
 	done
 
 CircleRarityText:
-	textfw3 "●"
+	textfw "●"
 	done
 
 DiamondRarityText:
-	textfw3 "◆"
+	textfw "◆"
 	done
 
 StarRarityText:
-	textfw3 "★"
+	textfw "★"
 	done
 
 AllCardsOwnedText:
@@ -130,7 +130,7 @@ DeckPrinterText:
 	text "Deck"
 	done
 
-Text0022:
+UnusedText0022: ; Unused
 	text "Attack"
 	done
 
@@ -199,7 +199,7 @@ IncompleteText:
 	text "Incomplete"
 	done
 
-Text0032:
+UnusedText0032: ; Unused
 	text "Damage"
 	done
 
@@ -207,7 +207,7 @@ UsedText:
 	text "Used <RAMTEXT>."
 	done
 
-Text0034:
+UnusedText0034: ; Unused
 	text "Received damage"
 	done
 
@@ -304,27 +304,27 @@ ColorListText:
 	done
 
 GrassSymbolText:
-	textfw0 "<GRASS>"
+	textfw "<GRASS>"
 	done
 
 FireSymbolText:
-	textfw0 "<FIRE>"
+	textfw "<FIRE>"
 	done
 
 WaterSymbolText:
-	textfw0 "<WATER>"
+	textfw "<WATER>"
 	done
 
 LightningSymbolText:
-	textfw0 "<LIGHTNING>"
+	textfw "<LIGHTNING>"
 	done
 
 FightingSymbolText:
-	textfw0 "<FIGHTING>"
+	textfw "<FIGHTING>"
 	done
 
 PsychicSymbolText:
-	textfw0 "<PSYCHIC>"
+	textfw "<PSYCHIC>"
 	done
 
 BenchText:
@@ -601,11 +601,8 @@ SelectCheckText:
 	line "  Check"
 	done
 
-Text0087:
-	textfw3 "B"
-	textfw0 "<RAMNUM>"
-	textfw3 "S"
-	textfw0 "<RAMNUM>"
+UnusedText0087: ; Unused
+	textfw "B", "<RAMNUM>", "S", "<RAMNUM>"
 	done
 
 DuelistIsThinkingText:
@@ -613,7 +610,7 @@ DuelistIsThinkingText:
 	done
 
 ClearOpponentNameText:
-	textfw0 "          "
+	textfw "          "
 	done
 
 SelectComputerOpponentText:
@@ -624,27 +621,27 @@ NumberOfPrizesText:
 	text "Number of Prizes"
 	done
 
-Text008c:
+UnusedText008c: ; Unused
 	text "Random 1"
 	done
 
-Text008d:
+UnusedText008d: ; Unused
 	text "Random 2"
 	done
 
-Text008e:
+UnusedText008e: ; Unused
 	text "Random 3"
 	done
 
-Text008f:
+UnusedText008f: ; Unused
 	text "Random 4"
 	done
 
-Text0090:
+UnusedText0090: ; Unused
 	text "Training COM"
 	done
 
-Text0091:
+UnusedText0091: ; Unused
 	text "Player 1"
 	done
 
@@ -652,21 +649,21 @@ Player2Text:
 	text "Player 2"
 	done
 
-Text0093:
+UnusedText0093: ; Unused
 	text "Left to Right"
 	done
 
-Text0094:
+UnusedText0094: ; Unused
 	text "Right to Left"
 	done
 
-Text0095:
+UnusedText0095: ; Unused
 	text "START: Change"
 	line "    A: Execute"
 	line "    B: End"
 	done
 
-Text0096:
+UnusedText0096: ; Unused
 	text "Other"
 	line "Poison"
 	line "Sleep"
@@ -687,7 +684,7 @@ Text0096:
 	line "Change Card"
 	done
 
-Text0097:
+UnusedText0097: ; Unused
 	text "WIN GAME"
 	line "LOSE GAME"
 	line "DRAW GAME"
@@ -700,36 +697,36 @@ Text0097:
 	line "LOAD FILE"
 	done
 
-Text0098:
+UnusedText0098: ; Unused
 	text "Save File"
 	done
 
-Text0099:
+UnusedText0099: ; Unused
 	text "Load File"
 	line "  "
 	half2full
-	textfw0 "0"
+	textfw "0"
 	text "  Last Saved File"
 	done
 
-Text009a:
+UnusedText009a: ; Unused
 	text "Pause Mode is ON"
 	line "Press SELECT to Pause"
 	done
 
-Text009b:
+UnusedText009b: ; Unused
 	text "Pause Mode is OFF"
 	done
 
-Text009c:
+UnusedText009c: ; Unused
 	text "Computer Mode is OFF"
 	done
 
-Text009d:
+UnusedText009d: ; Unused
 	text "Computer Mode is ON"
 	done
 
-Text009e:
+UnusedText009e: ; Unused
 	text "<GRASS> Pokémon"
 	line ""
 	text "<FIRE> Pokémon"
@@ -747,15 +744,15 @@ Text009e:
 	line "Energy Card"
 	done
 
-Text009f:
+UnusedText009f: ; Unused
 	text "Card List"
 	done
 
-Text00a0:
+UnusedText00a0: ; Unused
 	text "Test Coin Flip"
 	done
 
-Text00a1:
+UnusedText00a1: ; Unused
 	text "End without Prizes?"
 	done
 
@@ -994,7 +991,7 @@ UnableDueToToxicGasText:
 	line "effects of Toxic Gas."
 	done
 
-Text00d5:
+UnusedText00d5: ; Unused
 	text "A Transmission Error occured."
 	done
 
@@ -1138,7 +1135,7 @@ IfHeadsNoDamageNextTurnText:
 	line "damage during opponent's next turn!"
 	done
 
-Text00f2:
+UnusedText00f2: ; Unused
 	text "Damage check"
 	done
 

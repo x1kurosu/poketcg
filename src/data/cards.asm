@@ -8242,9 +8242,9 @@ PidgeottoCard:
 	tx PidgeottoDescription ; description
 	db 16
 
-Pidgeot1Card:
+PidgeotLv38Card:
 	db TYPE_PKMN_COLORLESS ; type
-	gfx Pidgeot1CardGfx ; gfx
+	gfx PidgeotLv38CardGfx ; gfx
 	tx PidgeotName ; name
 	db STAR ; rarity
 	db LABORATORY | GB ; sets
@@ -8290,12 +8290,12 @@ Pidgeot1Card:
 	db 38 ; level
 	db 4, 11 ; length
 	dw 87 * 10 ; weight
-	tx Pidgeot1Description ; description
+	tx PidgeotLv38Description ; description
 	db 0
 
-Pidgeot2Card:
+PidgeotLv40Card:
 	db TYPE_PKMN_COLORLESS ; type
-	gfx Pidgeot2CardGfx ; gfx
+	gfx PidgeotLv40CardGfx ; gfx
 	tx PidgeotName ; name
 	db STAR ; rarity
 	db EVOLUTION | JUNGLE ; sets
@@ -8341,7 +8341,7 @@ Pidgeot2Card:
 	db 40 ; level
 	db 4, 11 ; length
 	dw 87 * 10 ; weight
-	tx Pidgeot2Description ; description
+	tx PidgeotLv40Description ; description
 	db 0
 
 SentretLv18Card:

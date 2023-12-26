@@ -202,7 +202,7 @@ ChoosePokemonToAttachEnergyCardText:
 	line "the Energy card to."
 	done
 
-Text011e:
+UnusedText011e: ; Unused
 	text "Choose and Discard"
 	line "1 Fire Energy card."
 	done
@@ -498,7 +498,7 @@ ThePkmnCardsInHandAndDeckWereShuffledText:
 	line "Hand and Deck were shuffled"
 	done
 
-Text014f:
+UnusedText014f: ; Unused
 	text "Remove Damage counter each time the"
 	line "A Button is pressed. B Button quits."
 	done
@@ -523,7 +523,7 @@ Choose2BasicEnergyCardsFromDiscardPileText:
 	line "from the Discard Pile."
 	done
 
-Text0154:
+UnusedText0154: ; Unused
 	text "Choose a Pokémon and press the A"
 	line "Button to remove Damage counters."
 	done
@@ -548,7 +548,7 @@ ChoosePokemonToAttachDefenderToText:
 	line "attach Defender to."
 	done
 
-Text0159:
+UnusedText0159: ; Unused
 	text "You can draw up to <RAMNUM> cards."
 	line "A to Draw, B to End."
 	done
@@ -684,7 +684,7 @@ DiscardedCardsFromDeckText:
 	line "from <RAMNAME>'s Deck."
 	done
 
-Text0175:
+UnusedText0175: ; Unused
 	text "Discarded <RAMTEXT>"
 	line "from the Hand."
 	done
@@ -760,7 +760,7 @@ ExchangedCardsInDuelistsHandText:
 	line "in <RAMNAME>'s Hand."
 	done
 
-Text0185:
+UnusedText0185: ; Unused
 	text "Battle Center"
 	done
 
@@ -834,7 +834,7 @@ ReceivedPromotionalSurfingPikachuText:
 	line "card Surfin' Pikachu!"
 	done
 
-Text0194:
+UnusedText0194: ; Unused
 	text "Received a Flareon!!!"
 	line "Looked at the card list!"
 	done
@@ -852,11 +852,11 @@ WouldYouLikeToTryAgainText:
 	text "Would you like to try again?"
 	done
 
-Text0198:
+UnusedText0198: ; Unused
 	text "Sent to <RAMNAME>."
 	done
 
-Text0199:
+UnusedText0199: ; Unused
 	text "Received from <RAMNAME>."
 	done
 
@@ -1267,7 +1267,7 @@ ReplaceDueToKnockoutPracticeDuelText:
 	text " Replace due to Knockout "
 	done
 
-Text01dd:
+UnusedText01dd: ; Unused
 	text "Dummy"
 	done
 
@@ -1483,20 +1483,20 @@ RetreatCostText:
 	text "Retreat Cost"
 	done
 
-Text0213:
-	textfw3 "SWITCH TO UPPER"
+UnusedText0213: ; Unused
+	textfw "SWITCH TO UPPER"
 	done
 
-Text0214:
-	textfw3 "SWITCH TO LOWER"
+UnusedText0214: ; Unused
+	textfw "SWITCH TO LOWER"
 	done
 
 FeetText:
-	textfw3 "'"
+	textfw "'"
 	done
 
 InchesText:
-	textfw3 "”"
+	textfw "”"
 	done
 
 YourDiscardPileText:
@@ -1511,16 +1511,16 @@ DeckText:
 	text "Deck"
 	done
 
-Text021a:
-	hiragana "ひらがナ"
+UnusedText021a: ; Unused (Hiragana)
+	textfw "ひらがな"
 	done
 
-Text021b:
-	textfw0 "カタカナ"
+UnusedText021b: ; Unused (Katakana)
+	textfw "カタカナ"
 	done
 
-Text021c:
-	textfw3 "ABC"
+UnusedText021c: ; Unused
+	textfw "ABC"
 	done
 
 EndText:
@@ -1531,72 +1531,40 @@ WhatIsYourNameText:
 	text "What is your name?"
 	done
 
-Text021f:
-	hiragana "あ か さ た な は ま や ら"
-	line ""
-	textfw0 "い き し ち に ひ み ゆ り"
-	line ""
-	textfw0 "う く す つ ぬ ふ む よ る"
-	line ""
-	textfw0 "え け せ て ね へ め わ れ"
-	line ""
-	textfw0 "お こ そ と の ほ も ん ろ"
-	line ""
-	textfw0 "ゃ ゅ ょ っ を "
-	textfw3 "゛ ゜ "
-	textfw0 "—"
+UnusedText021f: ; Unused
+	textfw "あ か さ た な は ま や ら"
+	linefw "い き し ち に ひ み ゆ り"
+	linefw "う く す つ ぬ ふ む よ る"
+	linefw "え け せ て ね へ め わ れ"
+	linefw "お こ そ と の ほ も ん ろ"
+	linefw "ゃ ゅ ょ っ を ゛ ゜ ー"
 	done
 
-Text0220:
-	textfw0 "ア カ サ タ ナ ハ マ ヤ ラ"
-	line ""
-	textfw0 "イ キ シ チ ニ ヒ ミ ユ リ"
-	line ""
-	textfw0 "ウ ク ス ツ ヌ フ ム ヨ ル"
-	line ""
-	textfw0 "エ ケ セ テ ネ ヘ メ ワ レ"
-	line ""
-	textfw0 "オ コ ソ ト ノ ホ モ ン ロ"
-	line ""
-	textfw0 "ャ ュ ョ ッ ヲ "
-	textfw3 "゛ ゜ "
-	textfw0 "—"
+UnusedText0220: ; Unused
+	textfw "ア カ サ タ ナ ハ マ ヤ ラ"
+	linefw "イ キ シ チ ニ ヒ ミ ユ リ"
+	linefw "ウ ク ス ツ ヌ フ ム ヨ ル"
+	linefw "エ ケ セ テ ネ ヘ メ ワ レ"
+	linefw "オ コ ソ ト ノ ホ モ ン ロ"
+	linefw "ャ ュ ョ ッ ヲ ゛ ゜ ー"
 	done
 
 PlayerNameKeyboardText:
-	textfw3 "A B C D E F G H I"
-	line ""
-	textfw3 "J K L M N O P Q R"
-	line ""
-	textfw3 "S T U V W X Y Z "
-	textfw0 "!"
-	line ""
-	textfw0 "? "
-	textfw3 "& "
-	textfw0 "+ - ・ 0 1 2 3"
-	line ""
-	textfw0 "4 5 6 7 8 9 ", "<No>", " ", "<Lv>", "  "
-	line ""
-	textfw0 "                 "
+	textfw "A B C D E F G H I"
+	linefw "J K L M N O P Q R"
+	linefw "S T U V W X Y Z !"
+	linefw "? & + - ・ 0 1 2 3"
+	linefw "4 5 6 7 8 9 ", "<No>", " ", "<Lv>", "  "
+	linefw "                 "
 	done
 
 DeckNameKeyboardText:
-	textfw3 "A B C D E F G H I"
-	line ""
-	textfw3 "J K L M N O P Q R"
-	line ""
-	textfw3 "S T U V W X Y Z "
-	textfw0 "!"
-	line ""
-	textfw0 "? "
-	textfw3 "& "
-	textfw0 "+ - "
-	textfw3 "'"
-	textfw0 " 0 1 2 3"
-	line ""
-	textfw0 "4 5 6 7 8 9      "
-	line ""
-	textfw0 "                 "
+	textfw "A B C D E F G H I"
+	linefw "J K L M N O P Q R"
+	linefw "S T U V W X Y Z !"
+	linefw "? & + - ' 0 1 2 3"
+	linefw "4 5 6 7 8 9      "
+	linefw "                 "
 	done
 
 NewDeckText:
@@ -1623,7 +1591,7 @@ CancelText:
 	text "Cancel"
 	done
 
-Text0229:
+UnusedText0229: ; Unused
 	text "as"
 	done
 
@@ -1633,19 +1601,19 @@ ChosenAsDuelingDeckText:
 	done
 
 Deck1Text:
-	textfw0 "1・"
+	textfw "1・"
 	done
 
 Deck2Text:
-	textfw0 "2・"
+	textfw "2・"
 	done
 
 Deck3Text:
-	textfw0 "3・"
+	textfw "3・"
 	done
 
 Deck4Text:
-	textfw0 "4・"
+	textfw "4・"
 	done
 
 ThereIsNoDeckHereText:
@@ -1727,7 +1695,7 @@ YourHandText:
 	text "Your Hand"
 	done
 
-Text0242:
+UnusedText0242: ; Unused
 	text "To Your Play Area"
 	done
 
@@ -1743,7 +1711,7 @@ OpponentsHandText:
 	text "Opponent Hand"
 	done
 
-Text0246:
+UnusedText0246: ; Unused
 	text "To Opponent's Play Area"
 	done
 
@@ -1788,8 +1756,7 @@ DuelistDiscardPileText:
 	done
 
 EmptyLineText:
-	textfw0 "         "
-	textfw0 "         "
+	textfw "                  "
 	done
 
 BoosterPackTitleText:
@@ -1821,7 +1788,7 @@ ViewWhichCardFileText:
 	done
 
 EmptyPromotionalCardText:
-	textfw0 "----------"
+	textfw "----------"
 	done
 
 SCardsText:
@@ -1829,7 +1796,7 @@ SCardsText:
 	done
 
 EmptyDeckNameText:
-	textfw0 "--------------"
+	textfw "--------------"
 	done
 
 DeckSaveMachineText:
@@ -1852,12 +1819,12 @@ ChooseADeckToSaveText:
 	text "Choose a Deck to Save."
 	done
 
-Text0261:
+UnusedText0261: ; Unused
 	text "You may only Save 60 Decks."
 	line "Please Delete a Deck first."
 	done
 
-Text0262:
+UnusedText0262: ; Unused
 	text "for"
 	done
 
@@ -1867,11 +1834,11 @@ SavedTheConfigurationForText:
 	text "<RAMTEXT>! "
 	done
 
-Text0264:
+NoDeckIsSavedText:
 	text "No Deck is saved."
 	done
 
-Text0265:
+UnusedText0265: ; Unused
 	text "Please choose a Deck "
 	line "configuration to delete."
 	done
@@ -1900,7 +1867,7 @@ DismantledDeckText:
 	text "<RAMTEXT>."
 	done
 
-Text026b:
+UnusedText026b: ; Unused
 	text "Please choose the Deck"
 	line "you wish to Build."
 	done

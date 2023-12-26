@@ -22,5 +22,11 @@
 *.2bpp
 *.pal
 
+# intermediate BG map files
+*.bgmap
+
+# compressed data
+*.lz
+
 # *disasm.py output file
 *disasm_output.asm

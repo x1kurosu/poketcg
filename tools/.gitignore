@@ -1,4 +1,6 @@
 scan_includes
 gfx
+compressor
+bgmap
 
 *.exe

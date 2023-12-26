@@ -43,6 +43,11 @@ clean: tidy
 	        -o -iname '*.pal' \) \
 	     -delete
 
+	find src/data \
+	     \( -iname '*.lz' \
+	        -o -iname '*.bgmap' \) \
+	     -delete
+
 tidy:
 	$(RM) $(rom) \
 	      $(rom:.gbc=.sym) \
@@ -158,3 +163,10 @@ src/gfx/titlescreen/title_screen_cgb.2bpp: rgbgfx += -x 12
 	$(RGBGFX) $(rgbgfx) -d1 -o $@ $<
 	$(if $(tools/gfx),\
 		tools/gfx $(tools/gfx) -d1 -o $@ $@)
+
+%.bgmap: %.bin ../dimensions/%.dimensions
+	tools/bgmap $(tools/bgmap) $^ $@
+
+# remove -m if you don't care for matching
+%.lz: %
+	tools/compressor -m $(tools/compressor) $< $@
