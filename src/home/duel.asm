@@ -867,6 +867,9 @@ EvolvePokemonCard::
 	ld a, [wLoadedCard1Stage]
 	ld [hl], a
 	or a
+	ld a, 0
+	ld [wAlreadyPlayedEnergy], a
+	; reset Energy limit
 	ret
 
 ; never executed

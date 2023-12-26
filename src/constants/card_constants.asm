@@ -46,18 +46,18 @@
 	const TANGELA_LV12                ; $2d
 	const SCYTHER                     ; $2e
 	const PINSIR                      ; $2f
-	const CHARMANDER                  ; $30
-	const CHARMELEON                  ; $31
+	const CYNDAQUIL_LV14                   ; $30
+	const QUILAVA                  ; $31
 	const CHARIZARD                   ; $32
 	const VULPIX                      ; $33
 	const NINETALES_LV32              ; $34
 	const NINETALES_LV35              ; $35
-	const GROWLITHE                   ; $36
+	const HOUNDOUR_LV22                   ; $36
 	const ARCANINE_LV34               ; $37
 	const ARCANINE_LV45               ; $38
-	const PONYTA                      ; $39
+	const SLUGMA                      ; $39
 	const RAPIDASH                    ; $3a
-	const MAGMAR_LV24                 ; $3b
+	const MAGMAR                 ; $3b
 	const MAGMAR_LV31                 ; $3c
 	const FLAREON_LV22                ; $3d
 	const FLAREON_LV28                ; $3e
@@ -94,7 +94,7 @@
 	const OMASTAR                     ; $5d
 	const ARTICUNO_LV35               ; $5e
 	const ARTICUNO_LV37               ; $5f
-	const PIKACHU_LV12                ; $60
+	const PICHU                       ; $60
 	const PIKACHU_LV14                ; $61
 	const PIKACHU_LV16                ; $62
 	const PIKACHU_ALT_LV16            ; $63
@@ -165,8 +165,8 @@
 	const PIDGEOTTO                   ; $a4
 	const PIDGEOT_LV38                ; $a5
 	const PIDGEOT_LV40                ; $a6
-	const RATTATA                     ; $a7
-	const RATICATE                    ; $a8
+	const SENTRET_LV18                     ; $a7
+	const FURRET                    ; $a8
 	const SPEAROW                     ; $a9
 	const FEAROW                      ; $aa
 	const CLEFAIRY                    ; $ab
@@ -196,7 +196,7 @@
 	const PROFESSOR_OAK               ; $c3
 	const IMPOSTER_PROFESSOR_OAK      ; $c4
 	const BILL                        ; $c5
-	const MR_FUJI                     ; $c6
+	const WHITNEYS_CHEER              ; $c6
 	const LASS                        ; $c7
 	const IMAKUNI_CARD                ; $c8
 	const POKEMON_TRADER              ; $c9

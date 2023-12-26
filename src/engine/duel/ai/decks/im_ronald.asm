@@ -34,18 +34,18 @@ AIActionTable_ImRonald:
 .list_arena
 	db LAPRAS
 	db SEEL
-	db CHARMANDER
+	db CYNDAQUIL_LV14
 	db CUBONE
 	db SQUIRTLE
-	db GROWLITHE
+	db HOUNDOUR_LV22
 	db $00
 
 .list_bench
-	db CHARMANDER
+	db CYNDAQUIL_LV14
 	db SQUIRTLE
 	db SEEL
 	db CUBONE
-	db GROWLITHE
+	db HOUNDOUR_LV22
 	db LAPRAS
 	db $00
 
@@ -53,9 +53,9 @@ AIActionTable_ImRonald:
 	db $00
 
 .list_energy
-	ai_energy CHARMANDER,     3, +0
-	ai_energy CHARMELEON,     5, +0
-	ai_energy GROWLITHE,      2, +0
+	ai_energy CYNDAQUIL_LV14,     3, +0
+	ai_energy QUILAVA,     5, +0
+	ai_energy HOUNDOUR_LV22,      2, +0
 	ai_energy ARCANINE_LV45,  4, +0
 	ai_energy SQUIRTLE,       2, +0
 	ai_energy WARTORTLE,      3, +0

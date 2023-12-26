@@ -1279,12 +1279,12 @@ SamsPracticeDeckName:
 	text "Sam's Practice"
 	done
 
-CharmanderAndFriendsDeckName:
-	text "Charmander & Friends"
+CyndaquilAndFriendsDeckName:
+	text "Cyndaquil & Friends"
 	done
 
-CharmanderExtraDeckName:
-	text "Charmander extra"
+CyndaquilExtraDeckName:
+	text "Cyndaquil extra"
 	done
 
 SquirtleAndFriendsDeckName:

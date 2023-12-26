@@ -7462,6 +7462,13 @@ CountKnockedOutPokemon:
 	jr nz, .next ; jump if this Pokemon's HP isn't 0
 	; this Pokemon's HP has just become 0
 	ld a, [de]
+    push de
+    call GetCardIDFromDeckIndex
+    ld a, e
+    cp PICHU
+    pop de
+    jr z, .next ; jump if pichu
+	ld a, [de]
 	push de
 	call GetCardIDFromDeckIndex
 	call GetCardType

@@ -347,7 +347,7 @@ AIDecideEvolution:
 	cp PIKACHU_DECK_ID
 	jr nz, .check_score
 	ld a, [wLoadedCard1ID]
-	cp PIKACHU_LV12
+	cp PICHU
 	jr z, .pikachu
 	cp PIKACHU_LV14
 	jr z, .pikachu
@@ -386,7 +386,7 @@ AIDecideEvolution:
 	ret
 
 ; determine AI score for evolving
-; Charmeleon, Magikarp, Dragonair and Grimer
+; Quilava, Magikarp, Dragonair and Grimer
 ; in certain decks
 AIDecideSpecialEvolutions:
 ; check if deck applies
@@ -401,17 +401,17 @@ AIDecideSpecialEvolutions:
 
 .legendary_dragonite
 	ld a, [wLoadedCard2ID]
-	cp CHARMELEON
-	jr z, .charmeleon
+	cp QUILAVA
+	jr z, .quilava
 	cp MAGIKARP
 	jr z, .magikarp
 	cp DRAGONAIR
 	jr z, .dragonair
 	ret
 
-; check if number of energy cards attached to Charmeleon are at least 3
+; check if number of energy cards attached to Quilava are at least 3
 ; and if adding the energy cards in hand makes at least 6 energy cards
-.charmeleon
+.quilava
 	ldh a, [hTempPlayAreaLocation_ff9d]
 	ld e, a
 	call CountNumberOfEnergyCardsAttached

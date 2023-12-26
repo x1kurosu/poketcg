@@ -33,9 +33,9 @@ AIActionTable_LegendaryMoltres:
 
 .list_arena
 	db MAGMAR_LV31
-	db GROWLITHE
+	db HOUNDOUR_LV22
 	db VULPIX
-	db MAGMAR_LV24
+	db MAGMAR
 	db MOLTRES_LV35
 	db MOLTRES_LV37
 	db $00
@@ -43,31 +43,31 @@ AIActionTable_LegendaryMoltres:
 .list_bench
 	db MOLTRES_LV35
 	db VULPIX
-	db GROWLITHE
+	db HOUNDOUR_LV22
 	db MAGMAR_LV31
-	db MAGMAR_LV24
+	db MAGMAR
 	db $00
 
 .list_play_hand
 	db MOLTRES_LV37
 	db MOLTRES_LV35
 	db VULPIX
-	db GROWLITHE
+	db HOUNDOUR_LV22
 	db MAGMAR_LV31
-	db MAGMAR_LV24
+	db MAGMAR
 	db $00
 
 .list_retreat
-	ai_retreat GROWLITHE, -5
+	ai_retreat HOUNDOUR_LV22, -5
 	ai_retreat VULPIX,    -5
 	db $00
 
 .list_energy
 	ai_energy VULPIX,         3, +0
 	ai_energy NINETALES_LV35, 3, +1
-	ai_energy GROWLITHE,      3, +1
+	ai_energy HOUNDOUR_LV22,      3, +1
 	ai_energy ARCANINE_LV45,  4, +1
-	ai_energy MAGMAR_LV24,    4, -1
+	ai_energy MAGMAR,    4, -1
 	ai_energy MAGMAR_LV31,    1, -1
 	ai_energy MOLTRES_LV37,   3, +2
 	ai_energy MOLTRES_LV35,   4, +2

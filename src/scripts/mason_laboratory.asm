@@ -325,42 +325,42 @@ Script_EnterLabFirstTime:
 	move_player NORTH, 2
 	print_npc_text Text05e3
 	close_advanced_text_box
-	set_next_npc_and_script NPC_SAM, .ows_d779
+	set_next_npc_and_script NPC_DRMASON, Script_AfterPracticeDuel
 	end_script
 	ret
 
-.ows_d779
-	start_script
-	move_active_npc NPCMovement_d880
-	print_npc_text Text05e4
-	set_dialog_npc NPC_DRMASON
-	print_npc_text Text05e5
-	close_text_box
-	move_active_npc NPCMovement_d882
-	set_active_npc_direction EAST
-	set_player_direction WEST
-	close_advanced_text_box
-	set_next_npc_and_script NPC_DRMASON, .ows_d794
-	end_script
-	ret
+;.ows_d779
+;	start_script
+;	move_active_npc NPCMovement_d880
+;	print_npc_text Text05e4
+;	set_dialog_npc NPC_DRMASON
+;	print_npc_text Text05e5
+;	close_text_box
+;	move_active_npc NPCMovement_d882
+;	set_active_npc_direction EAST
+;	set_player_direction WEST
+;	close_advanced_text_box
+;	set_next_npc_and_script NPC_DRMASON, .ows_d794
+;	end_script
+;	ret
 
-.ows_d794
-	start_script
-	move_active_npc NPCMovement_d88b
-	do_frames 40
-	print_npc_text Text05e6
-	close_text_box
-	move_player WEST, 1
-	move_player WEST, 1
-	set_player_direction SOUTH
-	move_player SOUTH, 1
-	move_player SOUTH, 1
-	move_player SOUTH, 1
-	set_player_direction WEST
-	move_active_npc NPCMovement_d894
-	print_npc_text Text05e7
-	set_dialog_npc NPC_SAM
-	print_npc_text Text05e8
+;.ows_d794
+;	start_script
+;	move_active_npc NPCMovement_d88b
+;	do_frames 40
+;	print_npc_text Text05e6
+;	close_text_box
+;	move_player WEST, 1
+;	move_player WEST, 1
+;	set_player_direction SOUTH
+;	move_player SOUTH, 1
+;	move_player SOUTH, 1
+;	move_player SOUTH, 1
+;	set_player_direction WEST
+;	move_active_npc NPCMovement_d894
+;	print_npc_text Text05e7
+;	set_dialog_npc NPC_SAM
+;	print_npc_text Text05e8
 .ows_d7bc
 	close_text_box
 	show_sam_rules_multichoice
@@ -428,22 +428,22 @@ Script_EnterLabFirstTime:
 
 Script_AfterPracticeDuel:
 	start_script
-	print_npc_text Text05eb
-	print_npc_text Text05ef
-	close_text_box
-	move_active_npc NPCMovement_d896
-	set_player_direction NORTH
-	move_player NORTH, 1
-	move_player NORTH, 1
-	move_player NORTH, 1
-	set_player_direction EAST
-	move_player EAST, 1
-	move_player EAST, 1
-	set_player_direction NORTH
-	print_npc_text Text05f0
-	close_text_box
-	print_text Text05f1
-	close_text_box
+;	print_npc_text Text05eb
+;	print_npc_text Text05ef
+;	close_text_box
+;	move_active_npc NPCMovement_d896
+;	set_player_direction NORTH
+;	move_player NORTH, 1
+;	move_player NORTH, 1
+;	move_player NORTH, 1
+;	set_player_direction EAST
+;	move_player EAST, 1
+;	move_player EAST, 1
+;	set_player_direction NORTH
+;	print_npc_text Text05f0
+;	close_text_box
+;	print_text Text05f1
+;	close_text_box
 	print_npc_text Text05f2
 .ows_d85f
 	choose_starter_deck

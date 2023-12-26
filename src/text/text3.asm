@@ -329,8 +329,8 @@ FireChargeText:
 	text "Fire Charge"
 	done
 
-CharmanderAndFriendsText:
-	text "Charmander & Friends"
+CyndaquilAndFriendsText:
+	text "Cyndaquil & Friends"
 	done
 
 SquirtleAndFriendsText:
@@ -569,14 +569,14 @@ FireChargeDescriptionText:
 	line "opponent and you!"
 	done
 
-CharmanderAndFriendsDescriptionText:
+CyndaquilAndFriendsDescriptionText:
 	text "A Fire, Grass and Water Deck:"
-	line "Charmander, Pinsir and Seel"
+	line "Cyndaquil, Pinsir and Seel"
 	done
 
 SquirtleAndFriendsDescriptionText:
 	text "A Water, Fire, and Lightning Deck:"
-	line "Squirtle, Charmander and Pikachu"
+	line "Squirtle, Cyndaquil and Pikachu"
 	done
 
 BulbasaurAndFriendsDescriptionText:
@@ -833,7 +833,7 @@ BasicPokemonDescriptionText:
 	line "can be played directly from your "
 	line "hand into the play area. Basic "
 	line "Pokémon act as the base for "
-	line "Evolution Cards. Charmander, "
+	line "Evolution Cards. Cyndaquil, "
 	line "Squirtle and Bulbasaur are"
 	line "examples of Basic Pokémon."
 	done
@@ -1933,8 +1933,8 @@ SelectDeckToDuelText:
 	line "you wish to Duel against."
 	done
 
-CharmanderAndFriendsDeckChoiceText:
-	text "CHARMANDER & Friends Deck"
+CyndaquilAndFriendsDeckChoiceText:
+	text "CYNDAQUIL & Friends Deck"
 	done
 
 SquirtleAndFriendsDeckChoiceText:

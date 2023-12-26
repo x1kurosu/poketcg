@@ -1450,10 +1450,10 @@ Palette119::
 	db 0
 	db 1
 
-	rgb 28, 28, 24
-	rgb 28, 16, 12
-	rgb 28,  4,  8
-	rgb  0,  0,  8
+	rgb 30, 31, 31
+	rgb 19, 27, 26
+	rgb  3, 19, 18
+	rgb  1,  5,  5
 
 SECTION "Anims 4", ROMX
 	INCLUDE "data/duel/animations/anims4.asm"
@@ -1664,13 +1664,13 @@ PinsirCardGfx::
 	INCBIN "gfx/cards/pinsir.2bpp"
 	INCBIN "gfx/cards/pinsir.pal"
 
-CharmanderCardGfx::
-	INCBIN "gfx/cards/charmander.2bpp"
-	INCBIN "gfx/cards/charmander.pal"
+CyndaquilLv14CardGfx::
+	INCBIN "gfx/cards/cyndaquil_lv14.2bpp"
+	INCBIN "gfx/cards/cyndaquil_lv14.pal"
 
-CharmeleonCardGfx::
-	INCBIN "gfx/cards/charmeleon.2bpp"
-	INCBIN "gfx/cards/charmeleon.pal"
+QuilavaCardGfx::
+	INCBIN "gfx/cards/quilava.2bpp"
+	INCBIN "gfx/cards/quilava.pal"
 
 CharizardCardGfx::
 	INCBIN "gfx/cards/charizard.2bpp"
@@ -1688,9 +1688,9 @@ NinetalesLv35CardGfx::
 	INCBIN "gfx/cards/ninetales2.2bpp"
 	INCBIN "gfx/cards/ninetales2.pal"
 
-GrowlitheCardGfx::
-	INCBIN "gfx/cards/growlithe.2bpp"
-	INCBIN "gfx/cards/growlithe.pal"
+HoundourLv22CardGfx::
+	INCBIN "gfx/cards/houndour_lv22.2bpp"
+	INCBIN "gfx/cards/houndour_lv22.pal"
 
 ArcanineLv34CardGfx::
 	INCBIN "gfx/cards/arcanine1.2bpp"
@@ -1700,17 +1700,17 @@ ArcanineLv45CardGfx::
 	INCBIN "gfx/cards/arcanine2.2bpp"
 	INCBIN "gfx/cards/arcanine2.pal"
 
-PonytaCardGfx::
-	INCBIN "gfx/cards/ponyta.2bpp"
-	INCBIN "gfx/cards/ponyta.pal"
+SlugmaLv27CardGfx::
+	INCBIN "gfx/cards/slugma_lv27.2bpp"
+	INCBIN "gfx/cards/slugma_lv27.pal"
 
 RapidashCardGfx::
 	INCBIN "gfx/cards/rapidash.2bpp"
 	INCBIN "gfx/cards/rapidash.pal"
 
-MagmarLv24CardGfx::
-	INCBIN "gfx/cards/magmar1.2bpp"
-	INCBIN "gfx/cards/magmar1.pal"
+MagmarCardGfx::
+	INCBIN "gfx/cards/magmar.2bpp"
+	INCBIN "gfx/cards/magmar.pal"
 
 MagmarLv31CardGfx::
 	INCBIN "gfx/cards/magmar2.2bpp"
@@ -1864,9 +1864,9 @@ ArticunoLv37CardGfx::
 	INCBIN "gfx/cards/articuno2.2bpp"
 	INCBIN "gfx/cards/articuno2.pal"
 
-PikachuLv12CardGfx::
-	INCBIN "gfx/cards/pikachu1.2bpp"
-	INCBIN "gfx/cards/pikachu1.pal"
+PichuCardGfx::
+	INCBIN "gfx/cards/pichu.2bpp"
+	INCBIN "gfx/cards/pichu.pal"
 
 PikachuLv14CardGfx::
 	INCBIN "gfx/cards/pikachu2.2bpp"
@@ -2160,13 +2160,13 @@ Pidgeot2CardGfx::
 	INCBIN "gfx/cards/pidgeot2.2bpp"
 	INCBIN "gfx/cards/pidgeot2.pal"
 
-RattataCardGfx::
-	INCBIN "gfx/cards/rattata.2bpp"
-	INCBIN "gfx/cards/rattata.pal"
+SentretLv18CardGfx::
+	INCBIN "gfx/cards/sentret_lv18.2bpp"
+	INCBIN "gfx/cards/sentret_lv18.pal"
 
-RaticateCardGfx::
-	INCBIN "gfx/cards/raticate.2bpp"
-	INCBIN "gfx/cards/raticate.pal"
+FurretCardGfx::
+	INCBIN "gfx/cards/furret.2bpp"
+	INCBIN "gfx/cards/furret.pal"
 
 	ds $58
 
@@ -2292,9 +2292,9 @@ BillCardGfx::
 	INCBIN "gfx/cards/bill.2bpp"
 	INCBIN "gfx/cards/bill.pal"
 
-MrFujiCardGfx::
-	INCBIN "gfx/cards/mrfuji.2bpp"
-	INCBIN "gfx/cards/mrfuji.pal"
+WhitneysCheerCardGfx::
+	INCBIN "gfx/cards/whitneyscheer.2bpp"
+	INCBIN "gfx/cards/whitneyscheer.pal"
 
 LassCardGfx::
 	INCBIN "gfx/cards/lass.2bpp"

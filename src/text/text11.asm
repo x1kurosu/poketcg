@@ -352,12 +352,6 @@ MouseName:
 	text "Mouse"
 	done
 
-PikachuLv12Description:
-	text "When several of these Pokémon"
-	line "gather, their electricity can cause"
-	line "lightning storms."
-	done
-
 SparkName:
 	text "Spark"
 	done

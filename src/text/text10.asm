@@ -768,42 +768,41 @@ PinsirDescription:
 	line "victim around and toss it hard."
 	done
 
-CharmanderName:
-	text "Charmander"
+CyndaquilName:
+	text "Cyndaquil"
 	done
 
-EmberName:
-	text "Ember"
+SwiftName:
+	text "Swift"
 	done
 
-EmberDescription:
-	text "Discard 1 <FIRE> Energy card attached to"
-	line "Charmander in order to use this"
-	line "attack."
+SwiftDescription:
+	text "This attack's damage isn't"
+	line "affected by Weakness or Resistance."
 	done
 
-LizardName:
-	text "Lizard"
+FireMouseName:
+	text "Fire Mouse"
 	done
 
-CharmanderDescription:
+CyndaquilLv14Description:
 	text "Obviously prefers hot places. If it"
 	line "gets caught in the rain, steam is"
 	line "said to spout from the tip of its"
 	line "tail."
 	done
 
-CharmeleonName:
-	text "Charmeleon"
+QuilavaName:
+	text "Quilava"
 	done
 
 FlamethrowerName:
 	text "Flamethrower"
 	done
 
-CharmeleonsFlamethrowerDescription:
+QuilavasFlamethrowerDescription:
 	text "Discard 1 <FIRE> Energy card attached to"
-	line "Charmeleon in order to use this"
+	line "Quilava in order to use this"
 	line "attack."
 	done
 
@@ -811,10 +810,10 @@ FlameName:
 	text "Flame"
 	done
 
-CharmeleonDescription:
-	text "When it swings its burning tail, it"
-	line "raises the temperature to unbearably"
-	line "high levels."
+QuilavaDescription:
+	text "This Pokémon is fully covered in"
+	line "non-flammable fur. It can withstand"
+	line "any kind of fire attack."
 	done
 
 CharizardName:
@@ -930,22 +929,22 @@ NinetalesLv35Description:
 	line "reincarnated as this."
 	done
 
-GrowlitheName:
-	text "Growlithe"
+HoundourName:
+	text "Houndour"
 	done
 
 FlareName:
 	text "Flare"
 	done
 
-PuppyName:
-	text "Puppy"
+DarkName:
+	text "Dark"
 	done
 
-GrowlitheDescription:
-	text "Very protective of its territory."
-	line "It will bark and bite to repel"
-	line "intruders from its space."
+HoundourLv22Description:
+	text "To corner prey, they check each"
+	line "other's location using barks that"
+	line "only they can understand."
 	done
 
 ArcanineName:
@@ -1005,26 +1004,26 @@ ArcanineLv45Description:
 	line "as if on wings."
 	done
 
-PonytaName:
-	text "Ponyta"
+SlugmaName:
+	text "Slugma"
 	done
 
 SmashKickName:
 	text "Smash Kick"
 	done
 
-FlameTailName:
-	text "Flame Tail"
+MagmaRingName:
+	text "Magma Ring"
 	done
 
-FireHorseName:
-	text "Fire Horse"
+LavaName:
+	text "Lava"
 	done
 
-PonytaDescription:
-	text "Its hooves are 10 times harder than"
-	line "diamonds. It can trample anything"
-	line "flat in moments."
+SlugmaLv27Description:
+	text "It never sleeps. It has to keeep"
+	line "moving because if it stopped, its"
+	line "magma body would cool and harden."
 	done
 
 RapidashName:
@@ -1049,8 +1048,6 @@ AgilityName:
 RapidashsAgilityDescription:
 	text "Flip a coin. If heads, during your"
 	line "opponent's next turn, prevent all"
-	line "effects of attacks, including"
-	line "damage, done to Rapidash."
 	done
 
 RapidashDescription:
@@ -1063,11 +1060,11 @@ MagmarName:
 	text "Magmar"
 	done
 
-FirePunchName:
-	text "Fire Punch"
+MagmaPunchName:
+	text "Magma Punch"
 	done
 
-FirePunchDescription:
+MagmaPunchDescription:
 	text "Discard 1 <FIRE> Energy card attached to"
 	line "Magmar in order to use this attack."
 	done
@@ -1076,10 +1073,10 @@ SpitfireName:
 	text "Spitfire"
 	done
 
-MagmarLv24Description:
-	text "Its body always burns with an orange"
-	line "glow that enables it to hide"
-	line "perfectly among flames."
+MagmarDescription:
+	text "It dislikes cold places, so it blows"
+	line "scorching flames to make the enviro-"
+	line "nment suitable for itself."
 	done
 
 SmokescreenName:

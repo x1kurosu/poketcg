@@ -37,7 +37,7 @@ AIActionTable_SamPractice:
 	call AIDecideBenchPokemonToSwitchTo
 	ret
 .scripted_3
-	call GetPlayAreaLocationOfRaticateOrRattata
+	call GetPlayAreaLocationOfFurretOrSentret
 	ret
 
 .take_prize:
@@ -74,15 +74,15 @@ SetSamsStartingPlayArea:
 	ld [wDuelInitialPrizes], a
 	ret
 
-; outputs in a Play Area location of Raticate or Rattata
+; outputs in a Play Area location of Furret or Sentret
 ; in the Bench. If neither is found, just output PLAY_AREA_BENCH_1.
-GetPlayAreaLocationOfRaticateOrRattata:
-	ld a, RATICATE
+GetPlayAreaLocationOfFurretOrSentret:
+	ld a, FURRET
 	ld b, PLAY_AREA_BENCH_1
 	call LookForCardIDInPlayArea_Bank5
 	cp $ff
 	jr nz, .found
-	ld a, RATTATA
+	ld a, SENTRET_LV18
 	ld b, PLAY_AREA_BENCH_1
 	call LookForCardIDInPlayArea_Bank5
 	cp $ff
@@ -130,33 +130,33 @@ AIPerformScriptedTurn:
 	ret
 
 .turn_2
-	ld a, RATTATA
+	ld a, SENTRET_LV18
 	call LookForCardIDInHandList_Bank5
 	ldh [hTemp_ffa0], a
 	ld a, OPPACTION_PLAY_BASIC_PKMN
 	bank1call AIMakeDecision
-	ld d, RATTATA
+	ld d, SENTRET_LV18
 	ld e, FIGHTING_ENERGY
 	call AIAttachEnergyInHandToCardInPlayArea
 	ret
 
 .turn_3
-	ld a, RATTATA
+	ld a, SENTRET_LV18
 	ld b, PLAY_AREA_ARENA
 	call LookForCardIDInPlayArea_Bank5
 	ldh [hTempPlayAreaLocation_ffa1], a
-	ld a, RATICATE
+	ld a, FURRET
 	call LookForCardIDInHandList_Bank5
 	ldh [hTemp_ffa0], a
 	ld a, OPPACTION_EVOLVE_PKMN
 	bank1call AIMakeDecision
-	ld d, RATICATE
+	ld d, FURRET
 	ld e, LIGHTNING_ENERGY
 	call AIAttachEnergyInHandToCardInPlayArea
 	ret
 
 .turn_4
-	ld d, RATICATE
+	ld d, FURRET
 	ld e, LIGHTNING_ENERGY
 	call AIAttachEnergyInHandToCardInPlayArea
 	ret
@@ -177,10 +177,10 @@ AIPerformScriptedTurn:
 ; because of the buggy comparison, this will always jump the
 ; 'inc a' instruction and switch to PLAY_AREA_BENCH_1.
 ; in a normal Practice Duel following Dr. Mason's instructions,
-; this will always lead to the AI correctly switching Raticate with Machop,
+; this will always lead to the AI correctly switching Furret with Machop,
 ; but in case of a "Free" Duel where the first Machop is not KO'd,
 ; the intention was to switch to PLAY_AREA_BENCH_2 instead.
-; but due to 'inc a' always being skipped, it will switch to Raticate.
+; but due to 'inc a' always being skipped, it will switch to Furret.
 	ld a, DUELVARS_ARENA_CARD
 	call GetTurnDuelistVariable
 	cp MACHOP ; wrong

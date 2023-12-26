@@ -533,22 +533,22 @@ Pidgeot2Description:
 	line "unwary prey such as Magikarp."
 	done
 
-RattataName:
-	text "Rattata"
+SentretName:
+	text "Sentret"
 	done
 
 RatName:
 	text "Rat"
 	done
 
-RattataDescription:
-	text "Bites anything when it attacks."
-	line "Small and very quick, it is a common"
-	line "sight in many places."
+SentretLv18Description:
+	text "It stands on its tail so it can see"
+	line "a long way. If it spots an enemy, it"
+	line "cries loudly to warn its kind."
 	done
 
-RaticateName:
-	text "Raticate"
+FurretName:
+	text "Furret"
 	done
 
 SuperFangName:
@@ -562,10 +562,10 @@ SuperFangDescription:
 	line "to the nearest 10)."
 	done
 
-RaticateDescription:
-	text "It uses its whiskers to maintain its"
-	line "balance. It seems to slow down if"
-	line "they are cut off."
+FurretDescription:
+	text "It makes a nest to suit its long"
+	line "and skinny body. The nest is impos-"
+	line "sible for other Pokémon to enter."
 	done
 
 SpearowName:
@@ -1118,9 +1118,6 @@ SleepingName:
 	done
 
 SnorlaxDescription:
-	text "Very lazy. Just eats and sleeps."
-	line "As its rotund bulk builds,"
-	line "it becomes steadily more slothful."
 	done
 
 DratiniName:
@@ -1219,11 +1216,11 @@ BillDescription:
 	text "Draw 2 cards."
 	done
 
-MrFujiName:
-	text "Mr.Fuji"
+WhitneysCheerName:
+	text "Whitney's Cheer"
 	done
 
-MrFujiDescription:
+WhitneysCheerDescription:
 	text "Choose a Pokémon on your Bench."
 	line "Shuffle it and any cards attached"
 	line "to it into your deck."

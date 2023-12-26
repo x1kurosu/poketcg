@@ -96,18 +96,13 @@ Text05e2:
 Text05e3:
 	text "Oh! Why the rush, <RAMNAME>?"
 	line "What? "
-	line "You want to learn how to play"
-	line "the Pokémon Trading Card Game?"
+	line "You want to play the Pokémon"
+	line "Trading Card Game?"
 	line "So you, too, finally want to "
 	line "start playing the card game. "
 	line "Well, dueling is more fun than "
 	line "just collecting cards!"
-	line "First, you should try playing "
-	line "with a Practice Deck. "
-	line "Here, I'll give you this Deck. "
-	line "And now you need an opponent..."
-	line "Hey, Sam!"
-	line "Play with him for a while!"
+	line "Here, I'll give you these cards. "
 	done
 
 Text05e4:
@@ -201,8 +196,8 @@ Text05f1:
 	done
 
 Text05f2:
-	text "Hmm...let me add some of my own "
-	line "cards to yours!"
+	text "Hmm...let me also give you a "
+	line "deck to use!"
 	line "Now, <RAMNAME>, what kind"
 	line "of Deck do you want?"
 	done

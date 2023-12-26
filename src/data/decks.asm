@@ -5,8 +5,8 @@ DeckPointers::
 	dw SamsPracticeDeck
 	dw PracticePlayerDeck
 	dw SamsPracticeDeck
-	dw CharmanderAndFriendsDeck
-	dw CharmanderExtraDeck
+	dw CyndaquilAndFriendsDeck
+	dw CyndaquilExtraDeck
 	dw SquirtleAndFriendsDeck
 	dw SquirtleExtraDeck
 	dw BulbasaurAndFriendsDeck
@@ -100,7 +100,7 @@ UnnamedDeck:
 	deck_list_start
 	card_item FIRE_ENERGY,            24
 	card_item PIDGEOT_LV40,            4
-	card_item CHARMANDER,              4
+	card_item CYNDAQUIL_LV14,              4
 	card_item PIDGEY,                  4
 	card_item GASTLY_LV17,             4
 	card_item EEVEE,                   4
@@ -146,7 +146,7 @@ UnnamedDeck:
 	card_item GENGAR,            2
 	card_item ELECTABUZZ_LV35,   2
 	card_item ELECTABUZZ_LV20,   2
-	card_item PIKACHU_LV12,      2
+	card_item PICHU,      2
 	card_item PIKACHU_LV14,      2
 	card_item RAICHU_LV40,       1
 	card_item RAICHU_LV45,       2
@@ -178,12 +178,12 @@ UnnamedDeck:
 	deck_list_start
 	card_item FIRE_ENERGY,     24
 	card_item PIDGEOT_LV40,     4
-	card_item CHARMANDER,       4
+	card_item CYNDAQUIL_LV14,       4
 	card_item PIDGEY,           4
 	card_item GASTLY_LV17,      4
 	card_item HAUNTER_LV17,     4
-	card_item RATTATA,          4
-	card_item RATICATE,         4
+	card_item SENTRET_LV18,          4
+	card_item FURRET,         4
 	card_item POKEMON_BREEDER,  4
 	card_item SCOOP_UP,         2
 	card_item POTION,           1
@@ -224,7 +224,7 @@ UnnamedDeck:
 	card_item MEW_LV23,         4
 	card_item DROWZEE,          4
 	card_item HYPNO,            4
-	card_item RATTATA,          4
+	card_item SENTRET_LV18,          4
 	card_item PORYGON,          4
 	card_item POKEMON_BREEDER,  4
 	card_item SCOOP_UP,         2
@@ -239,7 +239,7 @@ UnnamedDeck:
 	card_item MACHOP,           4
 	card_item GASTLY_LV17,      4
 	card_item HAUNTER_LV17,     4
-	card_item RATTATA,          4
+	card_item SENTRET_LV18,          4
 	card_item POKEMON_BREEDER,  4
 	card_item DEFENDER,         2
 	card_item GUST_OF_WIND,     2
@@ -259,7 +259,7 @@ UnnamedDeck:
 	card_item FLYING_PIKACHU,    4
 	card_item PIKACHU_LV16,      4
 	card_item PIKACHU_ALT_LV16,  4
-	card_item PIKACHU_LV12,      4
+	card_item PICHU,      4
 	card_item PIKACHU_LV14,      4
 	card_item RAICHU_LV40,       4
 	deck_list_end
@@ -270,7 +270,7 @@ UnnamedDeck:
 	card_item DIGLETT,          4
 	card_item MACHOP,           4
 	card_item MEOWTH_LV15,      4
-	card_item RATTATA,          4
+	card_item SENTRET_LV18,          4
 	card_item DODUO,            4
 	card_item POKEDEX,          2
 	card_item PLUSPOWER,        2
@@ -291,8 +291,8 @@ UnnamedDeck2:
 	card_item VILEPLUME,                2
 	card_item BULBASAUR,                4
 	card_item IVYSAUR,                  3
-	card_item CHARMANDER,               4
-	card_item CHARMELEON,               3
+	card_item CYNDAQUIL_LV14,               4
+	card_item QUILAVA,               3
 	card_item CHARIZARD,                2
 	card_item POKEMON_BREEDER,          2
 	card_item CHANSEY,                  2
@@ -311,8 +311,8 @@ UnnamedDeck2:
 	card_item BULBASAUR,                4
 	card_item IVYSAUR,                  3
 	card_item VENUSAUR_LV67,            2
-	card_item CHARMANDER,               4
-	card_item CHARMELEON,               3
+	card_item CYNDAQUIL_LV14,               4
+	card_item QUILAVA,               3
 	card_item CHARIZARD,                2
 	card_item POKEMON_BREEDER,          3
 	card_item POKEMON_TRADER,           3
@@ -375,7 +375,7 @@ UnnamedDeck2:
 	card_item NINETALES_LV35,   4
 	card_item MOLTRES_LV37,     4
 	card_item EEVEE,            4
-	card_item CHARMANDER,       4
+	card_item CYNDAQUIL_LV14,       4
 	card_item VULPIX,           4
 	card_item ARTICUNO_LV37,    4
 	card_item VAPOREON_LV29,    4
@@ -460,7 +460,7 @@ UnnamedDeck2:
 	card_item FLYING_PIKACHU,    4
 	card_item PIKACHU_LV16,      4
 	card_item PIKACHU_ALT_LV16,  4
-	card_item PIKACHU_LV12,      4
+	card_item PICHU,      4
 	card_item PIKACHU_LV14,      4
 	card_item RAICHU_LV40,       4
 	deck_list_end
@@ -524,7 +524,7 @@ PracticePlayerDeck:
 	card_item PSYCHIC_ENERGY, 1
 	card_item WATER_ENERGY,   1
 	card_item PSYCHIC_ENERGY, 1
-	card_item RATTATA,        1
+	card_item SENTRET_LV18,        1
 	card_item ABRA,           1
 	card_item PSYCHIC_ENERGY, 1
 	card_item HYPNO,          1
@@ -537,7 +537,7 @@ PracticePlayerDeck:
 	card_item PSYCHIC_ENERGY, 1
 	card_item DROWZEE,        1
 	card_item PSYCHIC_ENERGY, 1
-	card_item RATTATA,        1
+	card_item SENTRET_LV18,        1
 	card_item GOLDEEN,        1
 	card_item SEEL,           1
 	card_item DEWGONG,        1
@@ -547,9 +547,9 @@ PracticePlayerDeck:
 	card_item ABRA,           1
 	card_item DROWZEE,        1
 	card_item HYPNO,          1
-	card_item RATTATA,        1
-	card_item RATICATE,       1
-	card_item RATICATE,       1
+	card_item SENTRET_LV18,        1
+	card_item FURRET,       1
+	card_item FURRET,       1
 	card_item ALAKAZAM,       1
 	deck_list_end
 	tx PracticePlayerDeckName
@@ -559,15 +559,15 @@ SamsPracticeDeck:
 	card_item LIGHTNING_ENERGY,        2
 	card_item FIGHTING_ENERGY,         2
 	card_item MACHOP,                  1
-	card_item RATICATE,                1
+	card_item FURRET,                1
 	card_item MACHAMP,                 1
 	card_item FIGHTING_ENERGY,         2
 	card_item MACHAMP,                 1
-	card_item RATTATA,                 1
+	card_item SENTRET_LV18,                 1
 	card_item FIGHTING_ENERGY,         2
 	card_item MACHOP,                  1
 	card_item FIGHTING_ENERGY,         1
-	card_item RATICATE,                1
+	card_item FURRET,                1
 	card_item LIGHTNING_ENERGY,        1
 	card_item MACHOP,                  1
 	card_item BILL,                    1
@@ -590,9 +590,9 @@ SamsPracticeDeck:
 	card_item EEVEE,                   1
 	card_item FIGHTING_ENERGY,         1
 	card_item DOUBLE_COLORLESS_ENERGY, 1
-	card_item PIKACHU_LV12,            1
+	card_item PICHU,            1
 	card_item LIGHTNING_ENERGY,        1
-	card_item PIKACHU_LV12,            1
+	card_item PICHU,            1
 	card_item LIGHTNING_ENERGY,        1
 	card_item POTION,                  1
 	card_item LIGHTNING_ENERGY,        1
@@ -609,47 +609,34 @@ SamsPracticeDeck:
 	card_item RHYHORN,                 1
 	card_item RHYHORN,                 1
 	card_item RHYDON,                  1
-	card_item RATTATA,                 1
+	card_item SENTRET_LV18,            1
 	card_item EEVEE,                   1
 	card_item EEVEE,                   1
 	deck_list_end
 	tx SamsPracticeDeckName
 
-CharmanderAndFriendsDeck:
+CyndaquilAndFriendsDeck:
 	deck_list_start
-	card_item FIRE_ENERGY,      10
-	card_item LIGHTNING_ENERGY,  8
-	card_item FIGHTING_ENERGY,   6
-	card_item CHARMANDER,        2
-	card_item CHARMELEON,        1
-	card_item CHARIZARD,         1
-	card_item GROWLITHE,         2
-	card_item ARCANINE_LV45,     1
-	card_item PONYTA,            2
-	card_item MAGMAR_LV24,       1
-	card_item PIKACHU_LV12,      2
-	card_item RAICHU_LV40,       1
-	card_item MAGNEMITE_LV13,    2
-	card_item MAGNETON_LV28,     1
-	card_item ZAPDOS_LV64,       1
-	card_item DIGLETT,           2
-	card_item DUGTRIO,           1
-	card_item MACHOP,            1
-	card_item MACHOKE,           1
-	card_item RATTATA,           2
-	card_item RATICATE,          1
-	card_item MEOWTH_LV14,       1
-	card_item PROFESSOR_OAK,     1
-	card_item BILL,              2
-	card_item SWITCH,            1
-	card_item COMPUTER_SEARCH,   1
+	card_item CYNDAQUIL_LV14,    3
+	card_item QUILAVA,           2
+	card_item HOUNDOUR_LV22,     3
+	card_item SLUGMA,            3
+	card_item MAGMAR,            2
+	card_item PICHU,             2 ; magby
+	card_item SENTRET_LV18,      3
+	card_item FURRET,            2
+	card_item BILL,              1
+	card_item SWITCH,            2
 	card_item PLUSPOWER,         1
+	card_item DEFENDER,          1
 	card_item POTION,            2
 	card_item FULL_HEAL,         2
+	card_item LASS,              1 ; Gold's Outburst
+	card_item FIRE_ENERGY,      30
 	deck_list_end
-	tx CharmanderAndFriendsDeckName
+	tx CyndaquilAndFriendsDeckName
 
-CharmanderExtraDeck:
+CyndaquilExtraDeck:
 	deck_list_start
 	card_item GRASS_ENERGY,    4
 	card_item WATER_ENERGY,    4
@@ -670,22 +657,15 @@ CharmanderExtraDeck:
 	card_item GASTLY_LV8,      1
 	card_item GRASS_ENERGY,   30 ; irrelevant
 	deck_list_end
-	tx CharmanderExtraDeckName
+	tx CyndaquilExtraDeckName
 
 SquirtleAndFriendsDeck:
 	deck_list_start
-	card_item WATER_ENERGY,    11
-	card_item FIGHTING_ENERGY,  6
-	card_item PSYCHIC_ENERGY,   8
-	card_item SQUIRTLE,         2
-	card_item WARTORTLE,        1
-	card_item BLASTOISE,        1
-	card_item SEEL,             2
-	card_item DEWGONG,          1
-	card_item STARYU,           1
-	card_item STARMIE,          1
-	card_item GOLDEEN,          1
-	card_item SEAKING,          1
+	card_item WATER_ENERGY,    25
+	card_item SQUIRTLE,         3
+	card_item WARTORTLE,        2
+	card_item SEEL,             3
+	card_item STARYU,           3
 	card_item LAPRAS,           1
 	card_item ABRA,             2
 	card_item KADABRA,          1
@@ -695,8 +675,8 @@ SquirtleAndFriendsDeck:
 	card_item MACHOKE,          1
 	card_item GEODUDE,          2
 	card_item HITMONCHAN,       1
-	card_item RATTATA,          2
-	card_item RATICATE,         1
+	card_item SENTRET_LV18,          2
+	card_item FURRET,         1
 	card_item MEOWTH_LV14,      1
 	card_item PROFESSOR_OAK,    1
 	card_item BILL,             1
@@ -721,12 +701,12 @@ SquirtleExtraDeck:
 	card_item WEEDLE,            1
 	card_item KAKUNA,            1
 	card_item PINSIR,            1
-	card_item CHARMANDER,        2
-	card_item CHARMELEON,        1
-	card_item MAGMAR_LV24,       1
-	card_item GROWLITHE,         1
+	card_item CYNDAQUIL_LV14,         2
+	card_item QUILAVA,           1
+	card_item MAGMAR,            1
+	card_item HOUNDOUR_LV22,         1
 	card_item ARCANINE_LV45,     1
-	card_item PIKACHU_LV12,      2
+	card_item PICHU,             2
 	card_item MAGNEMITE_LV13,    1
 	card_item MAGNETON_LV28,     1
 	card_item ELECTABUZZ_LV35,   1
@@ -775,7 +755,7 @@ BulbasaurExtraDeck:
 	card_item LIGHTNING_ENERGY,  4
 	card_item PSYCHIC_ENERGY,    4
 	card_item FIGHTING_ENERGY,   3
-	card_item PIKACHU_LV12,      2
+	card_item PICHU,      2
 	card_item RAICHU_LV40,       1
 	card_item MAGNEMITE_LV13,    1
 	card_item ELECTABUZZ_LV35,   1
@@ -799,16 +779,16 @@ LightningAndFireDeck:
 	card_item FIRE_ENERGY,             10
 	card_item LIGHTNING_ENERGY,        10
 	card_item DOUBLE_COLORLESS_ENERGY,  2
-	card_item CHARMANDER,               2
-	card_item CHARMELEON,               1
+	card_item CYNDAQUIL_LV14,               2
+	card_item QUILAVA,               1
 	card_item CHARIZARD,                1
-	card_item GROWLITHE,                2
+	card_item HOUNDOUR_LV22,                2
 	card_item ARCANINE_LV45,            1
-	card_item PONYTA,                   2
+	card_item SLUGMA,                   2
 	card_item RAPIDASH,                 1
-	card_item MAGMAR_LV24,              1
+	card_item MAGMAR,              1
 	card_item MAGMAR_LV31,              1
-	card_item PIKACHU_LV12,             1
+	card_item PICHU,             1
 	card_item PIKACHU_LV14,             1
 	card_item RAICHU_LV40,              1
 	card_item MAGNEMITE_LV13,           2
@@ -816,8 +796,8 @@ LightningAndFireDeck:
 	card_item VOLTORB,                  3
 	card_item ELECTRODE_LV35,           1
 	card_item ELECTRODE_LV42,           1
-	card_item RATTATA,                  2
-	card_item RATICATE,                 1
+	card_item SENTRET_LV18,                  2
+	card_item FURRET,                 1
 	card_item PROFESSOR_OAK,            1
 	card_item BILL,                     2
 	card_item ENERGY_SEARCH,            2
@@ -894,9 +874,9 @@ LegendaryMoltresDeck:
 	card_item FIRE_ENERGY,            25
 	card_item VULPIX,                  4
 	card_item NINETALES_LV35,          3
-	card_item GROWLITHE,               4
+	card_item HOUNDOUR_LV22,               4
 	card_item ARCANINE_LV45,           2
-	card_item MAGMAR_LV24,             2
+	card_item MAGMAR,             2
 	card_item MAGMAR_LV31,             2
 	card_item MOLTRES_LV35,            2
 	card_item MOLTRES_LV37,            2
@@ -955,8 +935,8 @@ LegendaryDragoniteDeck:
 	deck_list_start
 	card_item WATER_ENERGY,            20
 	card_item DOUBLE_COLORLESS_ENERGY,  4
-	card_item CHARMANDER,               3
-	card_item CHARMELEON,               2
+	card_item CYNDAQUIL_LV14,               3
+	card_item QUILAVA,               2
 	card_item CHARIZARD,                2
 	card_item MAGIKARP,                 3
 	card_item GYARADOS,                 2
@@ -1128,9 +1108,9 @@ FireChargeDeck:
 	deck_list_start
 	card_item FIRE_ENERGY,             21
 	card_item DOUBLE_COLORLESS_ENERGY,  4
-	card_item GROWLITHE,                4
+	card_item HOUNDOUR_LV22,                4
 	card_item ARCANINE_LV45,            3
-	card_item MAGMAR_LV24,              2
+	card_item MAGMAR,              2
 	card_item JIGGLYPUFF_LV12,          3
 	card_item JIGGLYPUFF_LV14,          1
 	card_item WIGGLYTUFF,               1
@@ -1154,9 +1134,9 @@ ImRonaldDeck:
 	card_item FIRE_ENERGY,       9
 	card_item WATER_ENERGY,     10
 	card_item FIGHTING_ENERGY,   8
-	card_item CHARMANDER,        3
-	card_item CHARMELEON,        2
-	card_item GROWLITHE,         3
+	card_item CYNDAQUIL_LV14,        3
+	card_item QUILAVA,        2
+	card_item HOUNDOUR_LV22,         3
 	card_item ARCANINE_LV45,     1
 	card_item SQUIRTLE,          3
 	card_item WARTORTLE,         2
@@ -1286,7 +1266,7 @@ HeatedBattleDeck:
 	card_item FIRE_ENERGY,       8
 	card_item LIGHTNING_ENERGY,  4
 	card_item FIGHTING_ENERGY,  15
-	card_item MAGMAR_LV24,       4
+	card_item MAGMAR,       4
 	card_item ELECTABUZZ_LV35,   2
 	card_item MANKEY,            3
 	card_item PRIMEAPE,          2
@@ -1310,8 +1290,8 @@ LovetoBattleDeck:
 	card_item MACHOP,           4
 	card_item MACHOKE,          3
 	card_item MACHAMP,          2
-	card_item RATTATA,          3
-	card_item RATICATE,         2
+	card_item SENTRET_LV18,          3
+	card_item FURRET,         2
 	card_item DODUO,            2
 	card_item DODRIO,           1
 	card_item TAUROS,           1
@@ -1351,7 +1331,7 @@ BlisteringPokemonDeck:
 	card_item FIGHTING_ENERGY,         8
 	card_item PSYCHIC_ENERGY,          5
 	card_item DOUBLE_COLORLESS_ENERGY, 2
-	card_item PONYTA,                  3
+	card_item SLUGMA,                  3
 	card_item RAPIDASH,                2
 	card_item ONIX,                    4
 	card_item CUBONE,                  4
@@ -1363,7 +1343,7 @@ BlisteringPokemonDeck:
 	card_item BILL,                    3
 	card_item POKEMON_TRADER,          2
 	card_item ENERGY_RETRIEVAL,        1
-	card_item MR_FUJI,                 2
+	card_item WHITNEYS_CHEER,                 2
 	card_item SWITCH,                  3
 	card_item DEFENDER,                3
 	card_item GUST_OF_WIND,            2
@@ -1470,7 +1450,7 @@ PikachuDeck:
 	deck_list_start
 	card_item WATER_ENERGY,             6
 	card_item LIGHTNING_ENERGY,        16
-	card_item PIKACHU_LV12,             1
+	card_item PICHU,             1
 	card_item PIKACHU_LV14,             1
 	card_item PIKACHU_LV16,             1
 	card_item PIKACHU_ALT_LV16,         1
@@ -1510,7 +1490,7 @@ BoomBoomSelfdestructDeck:
 PowerGeneratorDeck:
 	deck_list_start
 	card_item LIGHTNING_ENERGY, 26
-	card_item PIKACHU_LV12,      2
+	card_item PICHU,      2
 	card_item PIKACHU_LV14,      1
 	card_item RAICHU_LV40,       1
 	card_item MAGNEMITE_LV13,    1
@@ -1544,9 +1524,9 @@ EtceteraDeck:
 	card_item NIDORANF,         2
 	card_item ODDISH,           2
 	card_item TANGELA_LV12,     2
-	card_item CHARMANDER,       2
+	card_item CYNDAQUIL_LV14,       2
 	card_item MAGMAR_LV31,      1
-	card_item PIKACHU_LV12,     2
+	card_item PICHU,     2
 	card_item MAGNEMITE_LV13,   1
 	card_item DIGLETT,          1
 	card_item MACHOP,           2
@@ -1605,7 +1585,7 @@ KaleidoscopeDeck:
 	card_item EEVEE,                    4
 	card_item PORYGON,                  4
 	card_item BILL,                     2
-	card_item MR_FUJI,                  2
+	card_item WHITNEYS_CHEER,                  2
 	card_item ENERGY_SEARCH,            2
 	card_item SWITCH,                   4
 	card_item GUST_OF_WIND,             2
@@ -1754,11 +1734,11 @@ AngerDeck:
 	card_item FIRE_ENERGY,             10
 	card_item FIGHTING_ENERGY,          8
 	card_item DOUBLE_COLORLESS_ENERGY,  4
-	card_item GROWLITHE,                3
+	card_item HOUNDOUR_LV22,                3
 	card_item ARCANINE_LV34,            2
 	card_item CUBONE,                   3
-	card_item RATTATA,                  3
-	card_item RATICATE,                 2
+	card_item SENTRET_LV18,                  3
+	card_item FURRET,                 2
 	card_item DODUO,                    3
 	card_item DODRIO,                   2
 	card_item TAUROS,                   3
@@ -1776,14 +1756,14 @@ FlamethrowerDeck:
 	deck_list_start
 	card_item FIRE_ENERGY,             22
 	card_item DOUBLE_COLORLESS_ENERGY,  4
-	card_item CHARMANDER,               2
-	card_item CHARMELEON,               2
+	card_item CYNDAQUIL_LV14,               2
+	card_item QUILAVA,               2
 	card_item CHARIZARD,                1
 	card_item VULPIX,                   2
 	card_item NINETALES_LV32,           1
-	card_item GROWLITHE,                2
+	card_item HOUNDOUR_LV22,                2
 	card_item ARCANINE_LV45,            1
-	card_item MAGMAR_LV24,              3
+	card_item MAGMAR,              3
 	card_item FLAREON_LV28,             2
 	card_item EEVEE,                    3
 	card_item BILL,                     3
@@ -1802,9 +1782,9 @@ ReshuffleDeck:
 	card_item DOUBLE_COLORLESS_ENERGY,  2
 	card_item VULPIX,                   4
 	card_item NINETALES_LV35,           3
-	card_item GROWLITHE,                2
+	card_item HOUNDOUR_LV22,                2
 	card_item ARCANINE_LV45,            1
-	card_item PONYTA,                   2
+	card_item SLUGMA,                   2
 	card_item PIDGEY,                   4
 	card_item PIDGEOTTO,                3
 	card_item PIDGEOT_LV38,             2

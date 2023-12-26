@@ -34,13 +34,13 @@ AIActionTable_LegendaryDragonite:
 .list_arena
 	db KANGASKHAN
 	db LAPRAS
-	db CHARMANDER
+	db CYNDAQUIL_LV14
 	db DRATINI
 	db MAGIKARP
 	db $00
 
 .list_bench
-	db CHARMANDER
+	db CYNDAQUIL_LV14
 	db MAGIKARP
 	db DRATINI
 	db LAPRAS
@@ -48,13 +48,13 @@ AIActionTable_LegendaryDragonite:
 	db $00
 
 .list_retreat
-	ai_retreat CHARMANDER, -1
+	ai_retreat CYNDAQUIL_LV14, -1
 	ai_retreat MAGIKARP,   -5
 	db $00
 
 .list_energy
-	ai_energy CHARMANDER,     3, +1
-	ai_energy CHARMELEON,     4, +1
+	ai_energy CYNDAQUIL_LV14,     3, +1
+	ai_energy QUILAVA,     4, +1
 	ai_energy CHARIZARD,      5, +0
 	ai_energy MAGIKARP,       3, +1
 	ai_energy GYARADOS,       4, -1

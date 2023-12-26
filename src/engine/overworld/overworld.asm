@@ -706,7 +706,7 @@ Func_c4b9:
 	ld a, [wConsole]
 	cp CONSOLE_CGB
 	jr nz, .not_cgb
-	ld b, SPRITE_ANIM_RED_NPC_UP
+	ld b, SPRITE_ANIM_BLUE_NPC_UP
 .not_cgb
 	ld a, b
 	ld [wPlayerSpriteBaseAnimation], a

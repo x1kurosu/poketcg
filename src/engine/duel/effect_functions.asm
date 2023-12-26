@@ -3907,7 +3907,7 @@ MagmarSmog_AIEffect:
 	jp UpdateExpectedAIDamage_AccountForPoison
 
 ; return carry if no Fire Energy attached
-CharmeleonFlamethrower_CheckEnergy:
+QuilavaFlamethrower_CheckEnergy:
 	ld e, PLAY_AREA_ARENA
 	call GetPlayAreaCardAttachedEnergies
 	ldtx hl, NotEnoughFireEnergyText
@@ -3915,15 +3915,15 @@ CharmeleonFlamethrower_CheckEnergy:
 	cp 1
 	ret
 
-CharmeleonFlamethrower_PlayerSelectEffect:
+QuilavaFlamethrower_PlayerSelectEffect:
 	call PlayerPickFireEnergyCardToDiscard
 	ret
 
-CharmeleonFlamethrower_AISelectEffect:
+QuilavaFlamethrower_AISelectEffect:
 	call AIPickFireEnergyCardToDiscard
 	ret
 
-CharmeleonFlamethrower_DiscardEffect:
+QuilavaFlamethrower_DiscardEffect:
 	ldh a, [hTempList]
 	call PutCardInDiscardPile
 	ret
@@ -9482,14 +9482,14 @@ ClefairyDoll_PlaceInPlayAreaEffect:
 	ret
 
 ; return carry if no Pokemon in the Bench.
-MrFuji_BenchCheck:
+WhitneysCheer_BenchCheck:
 	ld a, DUELVARS_NUMBER_OF_POKEMON_IN_PLAY_AREA
 	call GetTurnDuelistVariable
 	ldtx hl, EffectNoPokemonOnTheBenchText
 	cp 2
 	ret
 
-MrFuji_PlayerSelection:
+WhitneysCheer_PlayerSelection:
 	ldtx hl, ChoosePokemonToReturnToTheDeckText
 	call DrawWideTextBox_WaitForInput
 	bank1call HasAlivePokemonInBench
@@ -9498,7 +9498,7 @@ MrFuji_PlayerSelection:
 	ldh [hTemp_ffa0], a
 	ret
 
-MrFuji_ReturnToDeckEffect:
+WhitneysCheer_ReturnToDeckEffect:
 ; get Play Area location's card index
 	ldh a, [hTemp_ffa0]
 	add DUELVARS_ARENA_CARD

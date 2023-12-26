@@ -183,3 +183,49 @@ RecycleDescription:
 	line "in your discard pile on top of your"
 	line "deck."
 	done
+	
+TinyMouseName:
+	text "Tiny Mouse"
+	done
+	
+PichuName:
+	text "Pichu"
+	done
+
+PichuDescription:
+	text "Despite its small size, it can zap"
+	line "even adult humans. However, if it"
+	line "does so, it also surprises itself."
+	done
+
+SubstituteName:
+	text "Substitute"
+	done
+	
+SubstituteDescription:
+	text "If this Pokémon is knocked out, the "
+	line "opponent does not take any prize "
+	line "cards."
+	done
+
+EmberDescription:
+	text "Discard 1 Fire Energy card attached"
+	line "to Quilava in order to use this"
+	line "attack."
+	done
+
+TailSlapName:
+	text "Tail Slap"
+	done
+
+ScoutName:
+	text "Scout"
+	done
+	
+LongBodyName:
+	text "Long Body"
+	done
+	
+EmberName:
+	text "Ember"
+	done

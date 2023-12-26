@@ -1607,7 +1607,7 @@ ScriptCommand_ChooseStarterDeckMultichoice:
 	dw .text_entries ; location of table containing text entries
 
 .text_entries
-	tx CharmanderAndFriendsDeckChoiceText
+	tx CyndaquilAndFriendsDeckChoiceText
 	tx SquirtleAndFriendsDeckChoiceText
 	tx BulbasaurAndFriendsDeckChoiceText
 

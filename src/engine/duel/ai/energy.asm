@@ -992,20 +992,20 @@ CheckSpecificDecksToAttachDoubleColorless:
 	ret
 
 ; if playing Legendary Dragonite deck,
-; check for Charmander and Dratini.
+; check for Cyndaquil and Dratini.
 .legendary_dragonite_deck
 	call .get_id
-	cp CHARMANDER
+	cp CYNDAQUIL_LV14
 	jr z, .check_colorless_attached
 	cp DRATINI
 	jr z, .check_colorless_attached
 	jr .no_carry
 
 ; if playing Fire Charge deck,
-; check for Growlithe.
+; check for Houndour.
 .fire_charge_deck
 	call .get_id
-	cp GROWLITHE
+	cp HOUNDOUR_LV22
 	jr z, .check_colorless_attached
 	jr .no_carry
 

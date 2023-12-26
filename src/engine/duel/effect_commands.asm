@@ -600,7 +600,7 @@ NinetalesFireBlastEffectCommands:
 	dbw EFFECTCMDTYPE_AI_SELECTION, FireBlast_AISelectEffect
 	db  $00
 
-CharmanderEmberEffectCommands:
+CyndaquilEmberEffectCommands:
 	dbw EFFECTCMDTYPE_INITIAL_EFFECT_1, Ember_CheckEnergy
 	dbw EFFECTCMDTYPE_INITIAL_EFFECT_2, Ember_PlayerSelectEffect
 	dbw EFFECTCMDTYPE_DISCARD_ENERGY, Ember_DiscardEffect
@@ -648,11 +648,11 @@ MagmarSmogEffectCommands:
 	dbw EFFECTCMDTYPE_AI, MagmarSmog_AIEffect
 	db  $00
 
-CharmeleonFlamethrowerEffectCommands:
-	dbw EFFECTCMDTYPE_INITIAL_EFFECT_1, CharmeleonFlamethrower_CheckEnergy
-	dbw EFFECTCMDTYPE_INITIAL_EFFECT_2, CharmeleonFlamethrower_PlayerSelectEffect
-	dbw EFFECTCMDTYPE_DISCARD_ENERGY, CharmeleonFlamethrower_DiscardEffect
-	dbw EFFECTCMDTYPE_AI_SELECTION, CharmeleonFlamethrower_AISelectEffect
+QuilavaFlamethrowerEffectCommands:
+	dbw EFFECTCMDTYPE_INITIAL_EFFECT_1, QuilavaFlamethrower_CheckEnergy
+	dbw EFFECTCMDTYPE_INITIAL_EFFECT_2, QuilavaFlamethrower_PlayerSelectEffect
+	dbw EFFECTCMDTYPE_DISCARD_ENERGY, QuilavaFlamethrower_DiscardEffect
+	dbw EFFECTCMDTYPE_AI_SELECTION, QuilavaFlamethrower_AISelectEffect
 	db  $00
 
 CharizardEnergyBurnEffectCommands:
@@ -1509,10 +1509,10 @@ ClefairyDollEffectCommands:
 	dbw EFFECTCMDTYPE_BEFORE_DAMAGE, ClefairyDoll_PlaceInPlayAreaEffect
 	db  $00
 
-MrFujiEffectCommands:
-	dbw EFFECTCMDTYPE_INITIAL_EFFECT_1, MrFuji_BenchCheck
-	dbw EFFECTCMDTYPE_INITIAL_EFFECT_2, MrFuji_PlayerSelection
-	dbw EFFECTCMDTYPE_BEFORE_DAMAGE, MrFuji_ReturnToDeckEffect
+WhitneysCheerEffectCommands:
+	dbw EFFECTCMDTYPE_INITIAL_EFFECT_1, WhitneysCheer_BenchCheck
+	dbw EFFECTCMDTYPE_INITIAL_EFFECT_2, WhitneysCheer_PlayerSelection
+	dbw EFFECTCMDTYPE_BEFORE_DAMAGE, WhitneysCheer_ReturnToDeckEffect
 	db  $00
 
 PlusPowerEffectCommands:

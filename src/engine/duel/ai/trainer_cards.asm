@@ -3866,7 +3866,7 @@ AIDecide_FullHeal:
 ; if not, return no carry.
 	jr .no_carry
 
-AIPlay_MrFuji:
+AIPlay_WhitneysCheer:
 	ld a, [wAITrainerCardToPlay]
 	ldh [hTempCardIndex_ff9f], a
 	ld a, [wAITrainerCardParameter]
@@ -3876,7 +3876,7 @@ AIPlay_MrFuji:
 	ret
 
 ; AI logic for playing Mr Fuji
-AIDecide_MrFuji:
+AIDecide_WhitneysCheer:
 	ld a, $ff
 	ld [wce06], a
 	ld [wce08], a
@@ -4886,7 +4886,7 @@ AIDecide_Pokeball:
 	ld a, CARD_LOCATION_DECK
 	call LookForCardIDInLocation
 	ret c
-	ld e, PIKACHU_LV12
+	ld e, PICHU
 	ld a, CARD_LOCATION_DECK
 	call LookForCardIDInLocation
 	ret c
@@ -4906,13 +4906,13 @@ AIDecide_Pokeball:
 	ld a, FIRE_ENERGY
 	call LookForCardIDInHandList_Bank8
 	jr nc, .lightning
-	ld a, CHARMANDER
+	ld a, CYNDAQUIL_LV14
 	call LookForCardIDInHandList_Bank8
 	jr c, .lightning
 	ld a, MAGMAR_LV31
 	call LookForCardIDInHandList_Bank8
 	jr c, .lightning
-	ld e, CHARMANDER
+	ld e, CYNDAQUIL_LV14
 	ld a, CARD_LOCATION_DECK
 	call LookForCardIDInLocation
 	ret c
@@ -4925,13 +4925,13 @@ AIDecide_Pokeball:
 	ld a, LIGHTNING_ENERGY
 	call LookForCardIDInHandList_Bank8
 	jr nc, .fighting
-	ld a, PIKACHU_LV12
+	ld a, PICHU
 	call LookForCardIDInHandList_Bank8
 	jr c, .fighting
 	ld a, MAGNEMITE_LV13
 	call LookForCardIDInHandList_Bank8
 	jr c, .fighting
-	ld e, PIKACHU_LV12
+	ld e, PICHU
 	ld a, CARD_LOCATION_DECK
 	call LookForCardIDInLocation
 	ret c
@@ -5383,19 +5383,19 @@ AIDecide_ComputerSearch_Anger:
 ; Play Area or in the hand. If there is, choose it as target.
 ; otherwise, check if the evolution card is in
 ; hand and if so, choose it as target instead.
-	ld b, RATTATA
-	ld a, RATICATE
+	ld b, SENTRET_LV18
+	ld a, FURRET
 	call LookForCardIDInDeck_GivenCardIDInHandAndPlayArea
 	jr c, .find_discard_cards
-	ld a, RATTATA
-	ld b, RATICATE
+	ld a, SENTRET_LV18
+	ld b, FURRET
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .find_discard_cards
-	ld b, GROWLITHE
+	ld b, HOUNDOUR_LV22
 	ld a, ARCANINE_LV34
 	call LookForCardIDInDeck_GivenCardIDInHandAndPlayArea
 	jr c, .find_discard_cards
-	ld a, GROWLITHE
+	ld a, HOUNDOUR_LV22
 	ld b, ARCANINE_LV34
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .find_discard_cards
@@ -5588,19 +5588,19 @@ AIDecide_PokemonTrader_LegendaryDragonite:
 	ld b, DRAGONITE_LV41
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .choose_hand
-	ld b, CHARMANDER
-	ld a, CHARMELEON
+	ld b, CYNDAQUIL_LV14
+	ld a, QUILAVA
 	call LookForCardIDInDeck_GivenCardIDInHandAndPlayArea
 	jr c, .choose_hand
-	ld b, CHARMELEON
+	ld b, QUILAVA
 	ld a, CHARIZARD
 	call LookForCardIDInDeck_GivenCardIDInHandAndPlayArea
 	jr c, .choose_hand
-	ld a, CHARMANDER
-	ld b, CHARMELEON
+	ld a, CYNDAQUIL_LV14
+	ld b, QUILAVA
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .choose_hand
-	ld a, CHARMELEON
+	ld a, QUILAVA
 	ld b, CHARIZARD
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .choose_hand
@@ -5619,7 +5619,7 @@ AIDecide_PokemonTrader_LegendaryDragonite:
 	ld a, DRAGONAIR
 	call CheckIfHasCardIDInHand
 	jr c, .set_carry
-	ld a, CHARMELEON
+	ld a, QUILAVA
 	call CheckIfHasCardIDInHand
 	jr c, .set_carry
 	ld a, GYARADOS
@@ -5628,7 +5628,7 @@ AIDecide_PokemonTrader_LegendaryDragonite:
 	ld a, MAGIKARP
 	call CheckIfHasCardIDInHand
 	jr c, .set_carry
-	ld a, CHARMANDER
+	ld a, CYNDAQUIL_LV14
 	call CheckIfHasCardIDInHand
 	jr c, .set_carry
 	ld a, DRATINI
@@ -5735,11 +5735,11 @@ AIDecide_PokemonTrader_BlisteringPokemon:
 	ld b, MAROWAK_LV26
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .find_duplicates
-	ld b, PONYTA
+	ld b, SLUGMA
 	ld a, RAPIDASH
 	call LookForCardIDInDeck_GivenCardIDInHandAndPlayArea
 	jr c, .find_duplicates
-	ld a, PONYTA
+	ld a, SLUGMA
 	ld b, RAPIDASH
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .find_duplicates
@@ -5844,7 +5844,7 @@ AIDecide_PokemonTrader_PowerGenerator:
 	ld a, RAICHU_LV40
 	call LookForCardIDInDeck_GivenCardIDInHandAndPlayArea
 	jp c, .find_duplicates
-	ld b, PIKACHU_LV12
+	ld b, PICHU
 	ld a, RAICHU_LV40
 	call LookForCardIDInDeck_GivenCardIDInHandAndPlayArea
 	jr c, .find_duplicates
@@ -5852,7 +5852,7 @@ AIDecide_PokemonTrader_PowerGenerator:
 	ld b, RAICHU_LV40
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .find_duplicates
-	ld a, PIKACHU_LV12
+	ld a, PICHU
 	ld b, RAICHU_LV40
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .find_duplicates
@@ -6017,19 +6017,19 @@ AIDecide_PokemonTrader_Flamethrower:
 ; Play Area or in the hand. If there is, choose it as target.
 ; otherwise, check if the evolution card is in
 ; hand and if so, choose it as target instead.
-	ld b, CHARMANDER
-	ld a, CHARMELEON
+	ld b, CYNDAQUIL_LV14
+	ld a, QUILAVA
 	call LookForCardIDInDeck_GivenCardIDInHandAndPlayArea
 	jr c, .find_duplicates
-	ld b, CHARMELEON
+	ld b, QUILAVA
 	ld a, CHARIZARD
 	call LookForCardIDInDeck_GivenCardIDInHandAndPlayArea
 	jr c, .find_duplicates
-	ld a, CHARMANDER
-	ld b, CHARMELEON
+	ld a, CYNDAQUIL_LV14
+	ld b, QUILAVA
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .find_duplicates
-	ld a, CHARMELEON
+	ld a, QUILAVA
 	ld b, CHARIZARD
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .find_duplicates
@@ -6041,11 +6041,11 @@ AIDecide_PokemonTrader_Flamethrower:
 	ld b, NINETALES_LV32
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .find_duplicates
-	ld b, GROWLITHE
+	ld b, HOUNDOUR_LV22
 	ld a, ARCANINE_LV45
 	call LookForCardIDInDeck_GivenCardIDInHandAndPlayArea
 	jr c, .find_duplicates
-	ld a, GROWLITHE
+	ld a, HOUNDOUR_LV22
 	ld b, ARCANINE_LV45
 	call LookForCardIDInDeck_GivenCardIDInHand
 	jr c, .find_duplicates
